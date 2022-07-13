@@ -1,5 +1,7 @@
-import { Reflect } from "./Reflect.ts";
+import * as R from "./Reflect.ts";
 import type { Constructor } from "./helper_types.ts";
+
+const Reflect = R.Reflect;
 
 export interface InjectionMetadata {
   isSingleton: boolean;
